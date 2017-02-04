@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research
-subtitle: Research projects
+title: Resume
+#subtitle: Research projects
 ---
 
-My resume can be downloaded below in pdf.
+My resume can be downloaded below.
 
 [RESUME]("papers/Resume_ABM_Musa.pdf")
