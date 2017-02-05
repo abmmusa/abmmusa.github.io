@@ -6,4 +6,4 @@ title: Resume
 
 My resume can be downloaded below.
 
-[RESUME](papers/Resume_ABM_Musa.pdf)
+[PDF](papers/Resume_ABM_Musa.pdf)
