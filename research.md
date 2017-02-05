@@ -19,6 +19,9 @@ Through experiments we also found that every packet sent incurs significant over
 Additionally, in online tracking, a fundamental three-way trade-off exists among timeliness, accuracy, and data usage. 
 With these observations in mind, we designed a thrifty tracking system that allows the user to specify desired targets for any two of timeliness, accuracy, and cost; and optimizes the third. We also provided the first unified view of the three-way trade-off with a closed-form characterization equation.
 
+
+See more at our [TMC 2016]({{ site.baseurl }}/papers/musa-tmc16.pdf) and and [GIS 2013]({{ site.baseurl }}/papers/biagioni-gis13.pdf) papres.
+
 ### Passive localization and tracking using Wi-Fi
 All smartphones come with Wi-Fi, and to detect the availability of Wi-Fi networks these smartphones periodically transmit probe messages. 
 By deploying Wi-Fi monitors in an area of interest, it is possible to detect these transmissions, providing a coarse-grained location trace for each phone. 
@@ -26,6 +29,8 @@ Inspired by these observations, we developed WiFlow to track unmodified smartpho
 However, some major challenges for passive smartphone tracking are sparse packet transmissions, received signal strength variation, and a variable number of received packets. To address these challenges we used a hidden-Markov-model based solution, using map topology to impose restrictions on movement, and signal strength characteristics. 
 Additionally, to obtain more packets from a passing smartphone for improved tracking accuracy, we used low-level Wi-Fi protocol features involving association process and management frames that increased the number of received packets by up to 5 times.
 
+
+See more at our [SenSys 2012]({{ site.baseurl }}/papers/musa-sensys12.pdf) paper and [SenSys 2011]({{ site.baseurl }}/papers/musa-sensys11-demo.pdf) demo.
 
 ### System architecture for large-scale localization and tracking
 Designing an efficient computational and network architecture is a challenge for real-time large-scale localization and tracking. 
