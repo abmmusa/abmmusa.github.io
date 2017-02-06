@@ -11,6 +11,12 @@ We address three key challenges faced in video-based localization on smartphones
 Based on an extensive set of both indoor and outdoor videos, meticulously annotated with location ground truth, we demonstrate that our proposed techniques produce accurate models despite challenging video conditions and substantially reduce model size without sacrificing accuracy. 
 We also demonstrate an optical-flow based method to reduce the feature extraction effort required for accurate localization.
 
+The image below shows the reconstructed 3D point cloud of an urban street near UIC campus. 
+<img src="{{ site.baseurl }}/img/reconstruction1.png" alt="Drawing" style="width: 800px;" />
+
+The plot below shows the CDF of localization error of our algorithm, where 85% of the locations has error below 1 meter.
+<img src="{{ site.baseurl }}/img/cdf_walk2.png" alt="Drawing" style="width: 600px;" />
+
 
 ### Performance and cost optimization for online GPS tracking
 For online GPS tracking of mobile devices, optimizing cellular data usage with a controllable error bound is an important problem. 
@@ -19,8 +25,10 @@ Through experiments we also found that every packet sent incurs significant over
 Additionally, in online tracking, a fundamental three-way trade-off exists among timeliness, accuracy, and data usage. 
 With these observations in mind, we designed a thrifty tracking system that allows the user to specify desired targets for any two of timeliness, accuracy, and cost; and optimizes the third. We also provided the first unified view of the three-way trade-off with a closed-form characterization equation.
 
+The figure below shows the architecture of our online GPS tracking system.
+<img src="{{ site.baseurl }}/img/thriftytracker.jpg" alt="Drawing" style="width: 800px;" />
 
-See more at our [TMC 2016]({{ site.baseurl }}/papers/musa-tmc16.pdf) and and [GIS 2013]({{ site.baseurl }}/papers/biagioni-gis13.pdf) papres.
+See more at our [TMC 2016]({{ site.baseurl }}/papers/musa-tmc16.pdf) and [GIS 2013]({{ site.baseurl }}/papers/biagioni-gis13.pdf) papers.
 
 ### Passive localization and tracking using Wi-Fi
 All smartphones come with Wi-Fi, and to detect the availability of Wi-Fi networks these smartphones periodically transmit probe messages. 
@@ -29,6 +37,8 @@ Inspired by these observations, we developed WiFlow to track unmodified smartpho
 However, some major challenges for passive smartphone tracking are sparse packet transmissions, received signal strength variation, and a variable number of received packets. To address these challenges we used a hidden-Markov-model based solution, using map topology to impose restrictions on movement, and signal strength characteristics. 
 Additionally, to obtain more packets from a passing smartphone for improved tracking accuracy, we used low-level Wi-Fi protocol features involving association process and management frames that increased the number of received packets by up to 5 times.
 
+The video below illustrates the performance of our tracking method with Wi-Fi monitors placed approximately 500 meteres apart. The red car shows the tracked location and the green car shows the ground truth GPS location.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIxLdGWvs2U" frameborder="0" allowfullscreen></iframe>
 
 See more at our [SenSys 2012]({{ site.baseurl }}/papers/musa-sensys12.pdf) paper and [SenSys 2011]({{ site.baseurl }}/papers/musa-sensys11-demo.pdf) demo.
 
