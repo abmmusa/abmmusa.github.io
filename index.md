@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ABM Musa
-subtitle: Welcome to my homepage!
+#subtitle: Welcome to my homepage!
 ---
 <img src="{{ site.baseurl }}/img/profile3.jpg" alt="Drawing" style="width: 400px;" />
 
