@@ -6,7 +6,7 @@ title: ABM Musa
 <img src="{{ site.baseurl }}/img/profile3.jpg" alt="Drawing" style="width: 400px;" />
 
 ### About Me
-I am a PhD candidate at [Department of Computer Science](https://www.cs.uic.edu) in University of Illinois at Chicago [(UIC)](https://www.uic.edu). I completed my BS in [Computer Science and Engineering](https://cse.buet.ac.bd) from Bangladesh University of Engineering and Technology [(BUET)](http://www.buet.ac.bd). Currently I am working with [Professor Jakob Eriksson](https://www.cs.uic.edu/Jakob) at [BITS Networked Systems Laboratory](https://www.cs.uic.edu/Bits).
+I am a Ph.D. candidate at [Department of Computer Science](https://www.cs.uic.edu) in University of Illinois at Chicago [(UIC)](https://www.uic.edu). I completed my BS in [Computer Science and Engineering](https://cse.buet.ac.bd) from Bangladesh University of Engineering and Technology [(BUET)](http://www.buet.ac.bd). Currently, I am working with [Professor Jakob Eriksson](https://www.cs.uic.edu/Jakob) at [BITS Networked Systems Laboratory](https://www.cs.uic.edu/Bits).
 
 ### Reserach Interests
 - Networked systems
