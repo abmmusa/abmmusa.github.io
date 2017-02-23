@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-#subtitle: Research projects
+#subtitle: 
 ---
 
-My resume can be downloaded here. [PDF]({{ site.baseurl }}/papers/Resume_ABM_Musa.pdf)
+My resume can be downloaded here. [PDF]({{ site.baseurl }}/docs/cv_musa.pdf)
