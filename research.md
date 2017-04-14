@@ -11,8 +11,8 @@ We address three key challenges faced in video-based localization on smartphones
 Based on an extensive set of both indoor and outdoor videos, meticulously annotated with location ground truth, we demonstrate that our proposed techniques produce accurate models despite challenging video conditions and substantially reduce model size without sacrificing accuracy. 
 We also demonstrate an optical-flow based method to reduce the feature extraction effort required for accurate localization.
 
-The image below shows the reconstructed 3D point cloud of an urban street near UIC campus. 
-<img src="{{ site.baseurl }}/img/reconstruction1.png" alt="Drawing" style="width: 800px;" />
+The video below shows the reconstructed 3D point cloud of an urban street near UIC campus. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DoDNc2cz-kg" frameborder="0" allowfullscreen></iframe>
 
 The plot below shows the CDF of localization error of our algorithm, where 85% of the locations has error below 1 meter.
 <img src="{{ site.baseurl }}/img/cdf_walk2.png" alt="Drawing" style="width: 600px;" />
