@@ -120,8 +120,9 @@ scholar:
     bibliography: pub_musa.bib
     source: _bibliography
     repository: papers
-    bibliography_template: "{{reference}} {% if link %} <a href='{{link}}'>PDF</a> {% endif %}"
-
+    #bibliography_template: "{{reference}} {% if link %} <a href='{{link}}'>PDF</a> {% endif %}"
+    bibliography_template: bibtemplate
+    
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
