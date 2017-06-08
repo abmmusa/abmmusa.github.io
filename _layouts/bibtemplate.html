@@ -1,0 +1,8 @@
+---
+---
+{{reference}}
+
+{% if entry.paper %} <a href="papers/{{ entry.key }}.pdf">[paper]</a> {% endif %}
+{% if entry.slides_keynote %} <a href="papers/slides_{{ entry.key }}.key">[slides (keynote)]</a> {% endif %}
+{% if entry.slides_pdf %} <a href="papers/slides_{{ entry.key }}.pdf">[slides (pdf)]</a> {% endif %}
+{% if entry.poster %} <a href="papers/poster_{{ entry.key }}.pdf">[poster]</a> {% endif %}
